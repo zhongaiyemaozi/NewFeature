@@ -8,7 +8,7 @@
 
 import UIKit
 
-class WBNewFeatureView: UIView {
+class CLNewFeatureView: UIView {
     
     fileprivate var imageNameArr: [Any]?
     
@@ -60,7 +60,7 @@ class WBNewFeatureView: UIView {
 
 }
 
-extension WBNewFeatureView {
+extension CLNewFeatureView {
     
     /// 页面搭建
     fileprivate func setupUI() {
@@ -102,7 +102,7 @@ extension WBNewFeatureView {
 
 
 // MARK: - UIScrollViewDelegate
-extension WBNewFeatureView: UIScrollViewDelegate {
+extension CLNewFeatureView: UIScrollViewDelegate {
     
     /// 每次滚动都会调用
     ///

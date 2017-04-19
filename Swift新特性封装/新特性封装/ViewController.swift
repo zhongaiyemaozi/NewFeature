@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             imageNameArr.append("\(i)")
         }
         
-        self.view.addSubview(WBNewFeatureView(imageNameArr: imageNameArr))
+        self.view.addSubview(CLNewFeatureView(imageNameArr: imageNameArr))
         
     }
 

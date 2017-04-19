@@ -12,7 +12,7 @@
 		9103D0A21E953FAB00B9CAE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9103D0A01E953FAB00B9CAE2 /* Main.storyboard */; };
 		9103D0A41E953FAB00B9CAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9103D0A31E953FAB00B9CAE2 /* Assets.xcassets */; };
 		9103D0A71E953FAB00B9CAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9103D0A51E953FAB00B9CAE2 /* LaunchScreen.storyboard */; };
-		9103D0B01E953FB300B9CAE2 /* WBNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103D0AF1E953FB300B9CAE2 /* WBNewFeatureView.swift */; };
+		9103D0B01E953FB300B9CAE2 /* CLNewFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103D0AF1E953FB300B9CAE2 /* CLNewFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		9103D0A31E953FAB00B9CAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9103D0A61E953FAB00B9CAE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9103D0A81E953FAB00B9CAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9103D0AF1E953FB300B9CAE2 /* WBNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WBNewFeatureView.swift; sourceTree = "<group>"; };
+		9103D0AF1E953FB300B9CAE2 /* CLNewFeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLNewFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		9103D0AE1E953FB300B9CAE2 /* Swift版新特性视图 */ = {
 			isa = PBXGroup;
 			children = (
-				9103D0AF1E953FB300B9CAE2 /* WBNewFeatureView.swift */,
+				9103D0AF1E953FB300B9CAE2 /* CLNewFeatureView.swift */,
 			);
 			path = "Swift版新特性视图";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9103D0B01E953FB300B9CAE2 /* WBNewFeatureView.swift in Sources */,
+				9103D0B01E953FB300B9CAE2 /* CLNewFeatureView.swift in Sources */,
 				9103D09F1E953FAB00B9CAE2 /* ViewController.swift in Sources */,
 				9103D09D1E953FAB00B9CAE2 /* AppDelegate.swift in Sources */,
 			);
@@ -316,6 +316,7 @@
 				9103D0AD1E953FAB00B9CAE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
