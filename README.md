@@ -1,10 +1,14 @@
 
 #Swift新特性界面
+
 >添加到你的工程，一句代码即可实现
+
 ###效果如下
+
 ![image](https://github.com/zhongaiyemaozi/NewFeature/blob/master/newFeature.gif)
 
 >只需要把你的图片数组传过去就行
+
 ###代码块
 ``` python
 override func viewDidLoad() {
