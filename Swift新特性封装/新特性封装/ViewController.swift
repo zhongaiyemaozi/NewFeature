@@ -18,7 +18,6 @@ class ViewController: UIViewController {
         }
         
         self.view.addSubview(CLNewFeatureView(imageNameArr: imageNameArr))
-        
     }
 
    

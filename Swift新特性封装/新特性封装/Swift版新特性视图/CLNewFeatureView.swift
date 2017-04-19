@@ -10,11 +10,13 @@ import UIKit
 
 class CLNewFeatureView: UIView {
     
+    //pageControl与底部的距离（需要更改高度改此处就好）
+    fileprivate let margin: CGFloat = 50
+    
     fileprivate var imageNameArr: [Any]?
     
     fileprivate var subscriptIndex: Int = 0
-    
-    
+
     /// scrollView懒加载
     lazy fileprivate var scrollView: UIScrollView = {
         let scrollView = UIScrollView(frame: self.bounds)
@@ -84,7 +86,7 @@ extension CLNewFeatureView {
                                          toItem: self,
                                          attribute: .bottom,
                                          multiplier: 1.0,
-                                         constant: -50))
+                                         constant: -margin))
         
         //添加新特性图片
         for i in 0...(subscriptIndex - 1) {
